@@ -13,7 +13,8 @@ $ npm install javascript-gl
   <script type="importmap">
   {
     "imports": {
-      "javascript-gl": "/javascript-gl/index.js"
+      "javascript-gl": "/javascript-gl/index.js",
+      "javascript-gl/": "/javascript-gl/library/"
     }
   }
   </script>
@@ -24,4 +25,17 @@ $ npm install javascript-gl
 import GL from 'javascript-gl';
 
 ...
+```
+
+### Дополнительно
+Если вы используете vscode, можно настроить резолв для корректной работы самого редактора с помощью файла `jsconfig.json`
+```json
+{
+  "compilerOptions": {
+    "baseUrl": "../node_modules/",
+    "paths": {
+      "javascript-gl/*": ["./javascript-gl/library/*"]
+    }
+  }
+}
 ```
