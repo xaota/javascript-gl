@@ -1,0 +1,36 @@
+{
+  "name": "javascript-gl",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "es-module webGL api wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaota/javascript-gl.git"
+  },
+  "keywords": [
+    "api",
+    "gl",
+    "webgl",
+    "canvas",
+    "javascript",
+    "browser",
+    "es-module"
+  ],
+  "author": "https://github.com/xaota",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/xaota/javascript-gl/issues"
+  },
+  "homepage": "https://github.com/xaota/javascript-gl#readme",
+  "dependencies": {
+    "javascript-algebra": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "babel-eslint": "^10.0.2"
+  }
+}

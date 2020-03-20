@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "/javascript-fetch-api/*": ["../javascript-fetch-api/*"],
+      "/javascript-std-lib/*": ["../javascript-std-lib/*"],
+      "/javascript-algebra/*": ["../javascript-algebra/*"],
+      "/javascript-gl/*": ["../javascript-gl/*"]
+    }
+  }
+}
